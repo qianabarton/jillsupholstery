@@ -7,7 +7,7 @@ import logo from '../img/logo.png';
 export default class MyNav extends Component {
     render() {
         return (
-            <Navbar sticky="top" className="nav px-md-5" bg="" expand="sm">
+            <Navbar className="nav px-md-5" bg="" expand="sm">
                 <Navbar.Brand className="navbar-brand" href="/">
                     <span><span className="accent">Jill's</span> Upholstery</span>
                 </Navbar.Brand>

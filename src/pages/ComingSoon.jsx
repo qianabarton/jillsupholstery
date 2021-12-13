@@ -23,7 +23,7 @@ class Header extends Component {
       <div className="hero-box d-flex flex-row">
         <div className="hero-content d-flex flex-column">
           <h1 className="mb-3">
-            Coming soon
+            Coming Soon
           </h1>
           <h2>
           Our website is currently under construction but will be available soon. In the meantime, contact me for a quote or check out my business page on <a href="https://yelp.to/C57TJNjtWlb"><span className="accent">Yelp</span></a>.

@@ -5,6 +5,7 @@ body {
     height: 100vh;
     transform-style: preserve-3d;
     background: #C8C2CB;
+    overflow: hidden;
 }
 
 html {
