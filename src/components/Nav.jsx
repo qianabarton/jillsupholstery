@@ -9,7 +9,6 @@ export default class MyNav extends Component {
         return (
             <Navbar sticky="top" className="nav px-md-5" bg="" expand="sm">
                 <Navbar.Brand className="navbar-brand" href="/">
-                    <img className="logo" src={logo}/>
                     <span><span className="accent">Jill's</span> Upholstery</span>
                 </Navbar.Brand>
                     <Nav className="mr-auto"></Nav>

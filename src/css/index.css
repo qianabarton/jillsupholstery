@@ -1,13 +1,14 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
     height: 100vh;
     transform-style: preserve-3d;
-    overflow-x: hidden;
-    overflow-y: hidden;
+    background: #C8C2CB;
 }
 
 html {
     overflow: hidden;
+    background: #C8C2CB;
+
 }

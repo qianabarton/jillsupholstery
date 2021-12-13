@@ -22,7 +22,7 @@ class Header extends Component {
     return (
       <div className="hero-box d-flex flex-row">
         <div className="hero-content d-flex flex-column">
-          <h1 className="mb-4">
+          <h1 className="mb-3">
             Coming soon
           </h1>
           <h2>
