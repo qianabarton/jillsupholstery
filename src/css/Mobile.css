@@ -32,9 +32,14 @@
 
     }
 
+    .hero-box {
+        align-items: end;
+
+    }
+    
+
     .hero-content {
         width: 100%;
-        justify-content: end;
         padding: 0 30px 50px 30px;
     }
 

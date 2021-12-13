@@ -9,7 +9,7 @@ export default class Home extends Component {
     return (
       <div className="hero-bg">
         <div className="hero-image">
-        <Header />
+          <Header />
         </div>
       </div>
 
@@ -26,7 +26,7 @@ class Header extends Component {
             Coming soon
           </h1>
           <h2>
-          Our website is currently under construction but will be available soon. In the meantime, contact me for a quote or check out my business page on <a href="/"><span className="accent">Yelp</span></a>.
+          Our website is currently under construction but will be available soon. In the meantime, contact me for a quote or check out my business page on <a href="https://yelp.to/C57TJNjtWlb"><span className="accent">Yelp</span></a>.
           </h2>         
             <Button className="mt-4 header-button" onclick="window.open('tel:5035510543');"> Call or Text (503) 551-0543</Button>         
         </div>
