@@ -18,5 +18,3 @@ const store = configureStore()
 ReactDOM.render( < Nav / > , document.getElementById('nav'));
 
 ReactDOM.render( < App / > , document.getElementById('root'));
-
-ReactDOM.render( < Footer / > , document.getElementById('footer'));

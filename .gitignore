@@ -1,2 +1,13 @@
 node_modules
 .DS_Store
+build/asset-manifest.json
+build/CNAME
+build/favicon.ico
+build/index.html
+build/static/css/main.eac00f66.css
+build/static/css/main.eac00f66.css.map
+build/static/js/main.f979089e.js
+build/static/js/main.f979089e.js.map
+build/static/media/ovals-blue.14a60e1f.png
+build/static/media/ovals-mobile.b15901ef.png
+build/static/media/q-logo.2903f5da.svg

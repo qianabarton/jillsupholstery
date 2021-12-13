@@ -5,81 +5,44 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Oswald', sans-serif;
 */
 
+@font-face {
+    font-family: 'Futura-Bold';
+    src: local('Futura-Bold'), url(./fonts/Futura-bold.ttf) format('ttf');
+    font-family: 'Futura-Medium';
+    src: local('Futura-Medium'), url(./fonts/Futura-medium.ttf) format('ttf');
+  }
+  
+
 h1,
 h2 {
-    color: #696969;
+    color: #fff;
 }
 
 h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
+    font-family: 'Lato', 'sans-serif';
+    font-weight: 700 !important;
     font-size: 60px !important;
+    letter-spacing: 2.5px;
 }
 
 h2 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600 !important;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400 !important;
     font-size: 20px !important;
-}
-
-h3 {
-    /* EXPERIENCE */
-    font-family: 'Oswald', sans-serif;
-    font-size: 44px !important;
-    text-transform: uppercase;
-    color: #383838;
-}
-
-h4 {
-    /* JOB TITLE */
-    font-family: 'Oswald', sans-serif;
-    font-size: 28px !important;
-    text-transform: uppercase;
-    color: #383838;
-}
-
-h5 {
-    /* WORK DATES */
-    font-family: 'Oswald', sans-serif;
-    font-size: 22px !important;
-    text-transform: uppercase;
-    color: #515153;
-    opacity: 0.6;
-}
-
-h6 {
-    /* SKILLS */
-    font-family: 'Oswald', sans-serif;
-    font-size: 18px !important;
-    text-transform: uppercase;
-    color: #383838;
-}
-
-.h7 {
-    /* SKILLS */
-    font-family: 'Oswald', sans-serif;
-    font-size: 26px !important;
-    text-transform: uppercase;
-    color: #383838;
-}
-
-p {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px !important;
-    color: #515153;
-}
-
-li {
-    color: #FF7169;
-    font-size: 24px;
+    line-height: 1.6 !important;
 }
 
 .nav {
-    background-color: #fff;
+    background-color:transparent;
     z-index: 100;
     width: 100%;
     position: fixed !important;
-    border-bottom: 0.5px solid #D5D5D5;
+}
+
+.navbar-brand {
+    font-family: 'Futura-Medium';
+    font-size: 24px !important;
+    color: #fff !important;
 }
 
 .nav-link {
@@ -95,21 +58,36 @@ a:hover {
 
 /* HEADER */
 
-.ovals {
-    background: url("../img/ovals-blue.png") no-repeat;
-    background-size: 100%;
-}
-
-
-.laptop {
-    height: 80vh;
-    position: relative;
-}
-
-.laptop::after {
-    background: url("/img/laptop-4.jpg") fixed no-repeat;
+.hero-bg {
+    background: url("../img/bg-desktop.png") no-repeat;
     background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
 }
+
+.hero-box {
+    height: 100vh;
+}
+
+.hero-content {
+    width: 40%;
+    justify-content: center;
+    padding: 0 50px;
+
+}
+
+.hero-image {
+    height: 150%;
+    background: url("../img/hero-desktop.png") no-repeat;
+    background-size: 60%;
+    background-position: 120% 35%;
+    
+}
+
+
+
+
 
 .header {
     margin-top: 57px;
@@ -121,10 +99,7 @@ a:hover {
     padding: 0 150px;
 }
 
-.heading {
-    display: block;
-    margin-bottom: 20px;
-}
+
 
 .spacer20 {
     margin-bottom: 20px;
@@ -134,38 +109,20 @@ a:hover {
     height: 50px;
 }
 
-.padding50 {
-    padding: 50px 0;
-}
+
 
 .accent {
-    color: #FF7169;
+    color: #927F9E;
 }
 
-.gray {
-    color: #5e5e5e;
-    opacity: 0.6;
-}
-
-.blue-accent {
-    color: #6AB7BE;
-}
-
-.bold {
-    font-weight: 700 !important;
-}
-
-.light {
-    font-size: 13px !important;
-    opacity: 0.8;
-}
 
 .header-button {
-    background: #FF7169 !important;
+    background: #927F9E !important;
     border-radius: 4px !important;
     padding: 10px 30px !important;
+    width: 300px;
     border: none !important;
-    font-family: 'Open Sans', sans-serif !important;
+    font-family: 'Lato', sans-serif !important;
     font-weight: 700 !important;
     font-size: 14px !important;
     text-transform: none;
@@ -178,26 +135,6 @@ a:hover {
 }
 
 
-/* ABOUT */
-
-.about-heading {
-    margin-bottom: 20px;
-}
-
-.qiana-pic {
-    width: 100%;
-}
-
-.about {
-    height: 50vh;
-}
-
-
-/* EXPERIENCE */
-
-.experience {
-    height: 80vh;
-}
 
 
 /* FOOTER */
@@ -234,95 +171,8 @@ a:hover {
 }
 
 
-/* CONTACT PAGE */
-
-.input {
-    margin: 10px 0;
-}
-
-input,
-textarea {
-    font-family: 'Open Sans', sans-serif !important;
-    color: #383838 !important;
-    padding: 10px;
-    width: 100%;
-    border: 0.5px solid #D8D8D8;
-    transition: all 0.2s;
-}
-
-textarea {
-    min-height: 100px;
-}
-
-input:focus,
-textarea:focus {
-    outline: 2px solid #FF7169;
-}
-
-.submit-button {
-    float: right;
-}
-
-.vertical-margin {
-    margin: 80px 0;
-    z-index: 2;
-    position: relative;
-    background-color: #fff;
-}
-
 
 /* SCREENSHOT */
-
-.comp-bg {
-    height: 60vh;
-    position: relative;
-}
-
-.comp-bg::after {
-    background: url("/img/COMP.png") fixed repeat;
-    background-color: #F5F5F5;
-    background-size: contain;
-}
-
-.bottom-bg {
-    height: 50vh;
-    position: relative;
-}
-
-.bottom-bg::after {
-    background: url("/img/bg4.png") fixed no-repeat;
-    background-size: cover;
-}
-
-.palm2-bg {
-    height: 50vh;
-    position: relative;
-}
-
-.palm2-bg::after {
-    background: url("/img/palm-2.jpg") fixed no-repeat;
-    background-size: cover;
-}
-
-.projects-bg {
-    height: 50vh;
-    position: relative;
-}
-
-.projects-bg::after {
-    background: url("/img/bg2.png") fixed no-repeat;
-    background-size: cover;
-}
-
-.contact-bg {
-    height: 50vh;
-    position: relative;
-}
-
-.contact-bg::after {
-    background: url("/img/bg3.png") fixed no-repeat;
-    background-size: cover;
-}
 
 .parallax-wrapper::after {
     content: "";
@@ -342,10 +192,6 @@ textarea:focus {
 .static-wrapper {
     z-index: 2;
     position: relative;
-}
-
-.container {
-    padding: 50px 50px !important;
 }
 
 .scrollHack {
